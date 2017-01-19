@@ -1,0 +1,114 @@
+/**********************************************************************************/
+Default Scripts Included and Registered by WordPress
+Wp enqueue jquery and other plugin dependency
+____________________________________________________________________________________
+
+Reference:
+https://developer.wordpress.org/reference/functions/wp_enqueue_script/
+____________________________________________________________________________________
+
+Script Name	Handle	Needed Dependency *
+Image Cropper	Image cropper (not used in core, see jcrop)
+Jcrop	jcrop
+SWFObject	swfobject
+SWFUpload	swfupload
+SWFUpload Degrade	swfupload-degrade
+SWFUpload Queue	swfupload-queue
+SWFUpload Handlers	swfupload-handlers
+jQuery	jquery	json2 (for AJAX calls)
+jQuery Form	jquery-form	jquery
+jQuery Color	jquery-color	jquery
+jQuery Masonry	jquery-masonry	jquery
+Masonry (native Javascript)	masonry	imagesloaded
+jQuery UI Core	jquery-ui-core	jquery
+jQuery UI Widget	jquery-ui-widget	jquery
+jQuery UI Accordion	jquery-ui-accordion	jquery
+jQuery UI Autocomplete	jquery-ui-autocomplete	jquery
+jQuery UI Button	jquery-ui-button	jquery
+jQuery UI Datepicker	jquery-ui-datepicker	jquery
+jQuery UI Dialog	jquery-ui-dialog	jquery
+jQuery UI Draggable	jquery-ui-draggable	jquery
+jQuery UI Droppable	jquery-ui-droppable	jquery
+jQuery UI Menu	jquery-ui-menu	jquery
+jQuery UI Mouse	jquery-ui-mouse	jquery
+jQuery UI Position	jquery-ui-position	jquery
+jQuery UI Progressbar	jquery-ui-progressbar	jquery
+jQuery UI Selectable	jquery-ui-selectable	jquery
+jQuery UI Resizable	jquery-ui-resizable	jquery
+jQuery UI Selectmenu	jquery-ui-selectmenu	jquery
+jQuery UI Sortable	jquery-ui-sortable	jquery
+jQuery UI Slider	jquery-ui-slider	jquery
+jQuery UI Spinner	jquery-ui-spinner	jquery
+jQuery UI Tooltips	jquery-ui-tooltip	jquery
+jQuery UI Tabs	jquery-ui-tabs	jquery
+jQuery UI Effects	jquery-effects-core	jquery
+jQuery UI Effects – Blind	jquery-effects-blind	jquery-effects-core
+jQuery UI Effects – Bounce	jquery-effects-bounce	jquery-effects-core
+jQuery UI Effects – Clip	jquery-effects-clip	jquery-effects-core
+jQuery UI Effects – Drop	jquery-effects-drop	jquery-effects-core
+jQuery UI Effects – Explode	jquery-effects-explode	jquery-effects-core
+jQuery UI Effects – Fade	jquery-effects-fade	jquery-effects-core
+jQuery UI Effects – Fold	jquery-effects-fold	jquery-effects-core
+jQuery UI Effects – Highlight	jquery-effects-highlight	jquery-effects-core
+jQuery UI Effects – Pulsate	jquery-effects-pulsate	jquery-effects-core
+jQuery UI Effects – Scale	jquery-effects-scale	jquery-effects-core
+jQuery UI Effects – Shake	jquery-effects-shake	jquery-effects-core
+jQuery UI Effects – Slide	jquery-effects-slide	jquery-effects-core
+jQuery UI Effects – Transfer	jquery-effects-transfer	jquery-effects-core
+MediaElement.js (WP 3.6+)	wp-mediaelement	jquery
+jQuery Schedule	schedule	jquery
+jQuery Suggest	suggest	jquery
+ThickBox	thickbox
+jQuery HoverIntent	hoverIntent	jquery
+jQuery Hotkeys	jquery-hotkeys	jquery
+Simple AJAX Code-Kit	sack
+QuickTags	quicktags
+Iris (Colour picker)	iris	jquery
+Farbtastic (deprecated)	farbtastic	jquery
+ColorPicker (deprecated)	colorpicker	jquery
+Tiny MCE	tiny_mce
+Autosave	autosave
+WordPress AJAX Response	wp-ajax-response
+List Manipulation	wp-lists
+WP Common	common
+WP Editor	editorremov
+WP Editor Functions	editor-functions
+AJAX Cat	ajaxcat
+Admin Categories	admin-categories
+Admin Tags	admin-tags
+Admin custom fields	admin-custom-fields
+Password Strength Meter	password-strength-meter
+Admin Comments	admin-comments
+Admin Users	admin-users
+Admin Forms	admin-forms
+XFN	xfn
+Upload	upload
+PostBox	postbox
+Slug	slug
+Post	post
+Page	page
+Link	link
+Comment	comment
+Threaded Comments	comment-reply
+Admin Gallery	admin-gallery
+Media Upload	media-upload
+Admin widgets	admin-widgets
+Word Count	word-count
+Theme Preview	theme-preview
+JSON for JS	json2
+Plupload Core	plupload
+Plupload All Runtimes	plupload-all
+Plupload HTML4	plupload-html4
+Plupload HTML5	plupload-html5
+Plupload Flash	plupload-flash
+Plupload Silverlight	plupload-silverlight
+Underscore js	underscore
+Backbone js	backbone
+imagesLoaded	imagesloaded
+
+
+
+
+
+
+/**********************************************************************************/
