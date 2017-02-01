@@ -1,1 +1,37 @@
+/**********************************************************************************/
+Woocommerce price display all posibility
 
+/**********************************************************************************/
+____________________________________________________________________________________
+
+Reference:
+http://stackoverflow.com/questions/30165014/how-to-display-woocommerce-product-price-by-id-number-on-a-custom-page
+____________________________________________________________________________________
+
+>>>
+$product = new WC_Product($ad->id);
+echo wc_price($product->get_price_including_tax(1,$product->get_price()));
+// wc_price for curency displaywith price
+
+
+>>>
+$product = wc_get_product($ad->id);
+
+$product->get_regular_price();
+$product->get_sale_price();
+$product->get_price();
+
+>>>
+$args = array( 'post_type' => 'product', 'posts_per_page' => 100, 'product_cat' => 'hot-deals');
+          $loop = new WP_Query( $args );
+          while ( $loop->have_posts() ) : $loop->the_post(); 
+
+global $product; 
+
+$xml .= '<Original_price>' . $product->get_display_price( $product->get_regular_price() ) . '</Original_price>';
+$xml .= '<Discount_price>' . $product->get_display_price() . '</Discount_price>';
+
+echo $product->get_price_html();
+
+endwhile;
+wp_reset_query();
