@@ -1,3 +1,7 @@
+//Wordpress cheatsheet from rasel ahmed
+http://wpcheatsheet.net/
+
+
 /**********************************************************************************/
 Default Scripts Included and Registered by WordPress
 Wp enqueue jquery and other plugin dependency
