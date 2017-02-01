@@ -6,6 +6,7 @@ ________________________________________________________________________________
 
 Reference:
 http://stackoverflow.com/questions/30165014/how-to-display-woocommerce-product-price-by-id-number-on-a-custom-page
+http://stackoverflow.com/questions/16332551/woocommerce-variable-regular-and-sale-price
 ____________________________________________________________________________________
 
 >>>
@@ -35,3 +36,24 @@ echo $product->get_price_html();
 
 endwhile;
 wp_reset_query();
+
+
+>>>>>
+// sale price with variation/attribute/variable product wise
+ #Step 1: 
+ Get product varations
+$available_variations = $product->get_available_variations();
+
+#Step 2: 
+Get product variation id
+$variation_id=$available_variations[0]['variation_id']; // Getting the variable id of just the 1st product. You can loop $available_variations to get info about each variation.
+
+#Step 3: 
+Create the variable product object
+$variable_product1= new WC_Product_Variation( $variation_id );
+
+#Step 4: You have the data. Have fun :)
+$regular_price = $variable_product1 ->regular_price;
+$sales_price = $variable_product1 ->sale_price;
+
+
